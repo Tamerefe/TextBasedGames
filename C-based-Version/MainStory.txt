@@ -16,38 +16,3 @@ Bitiş 3.40 AM 5/18 3999 tarihinde biticektir herşey bilgisayar tarafından kon
 
 Sebep:
 Bu ismi seçme sebebim, "Aether" kelimesinin mistik ve sıradışı bir atmosfer çağrıştırmasıdır. "Nations in Aether", yapay zeka tarafından yönetilen bu dünyada, her bir ülkenin farklı bir boyutta ve deneyimde olduğunu vurgular. Bu isimle oyunun hikayesi ve atmosferi ön plana çıkar.
-
-*Characteristics
-
-Saldırganlık
-Baris
-Para
-Zeka
-
-Irk = [
-
-Melez = 0.5  2 taraf bonus
-Irk = 1
-
-]
-
-Din = [
-
-İslam =
-Hristiyan =
-Hinduizm =
-Budizm =
-Sihizm =
-Musevi =
-Bahailik =
-Konfüçyüsçülük =
-Cainizm =
-Şintoizm =
-]
-
-Dil = [
-
-Zorla Aşılanan =
-Kendi Dilleri Olup Farklı Ülkerler =
-
-]

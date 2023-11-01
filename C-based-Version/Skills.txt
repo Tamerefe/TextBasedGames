@@ -1,0 +1,55 @@
+*Characteristics
+
+Saldırganlık
+Baris
+Para
+Zeka
+
+Irk = [
+
+Melez = 0.5  2 taraf bonus
+Irk = 1
+
+]
+
+Din = [
+
+İslam =
+Hristiyan =
+Hinduizm =
+Budizm =
+Sihizm =
+Musevi =
+Bahailik =
+Konfüçyüsçülük =
+Cainizm =
+Şintoizm =
+]
+
+Dil = [
+
+Zorla Aşılanan =
+Kendi Dilleri Olup Farklı Ülkerler =
+
+]
+
+
+Yahudiler tüccarlık bonusu alır
+Araplar din bonusu alır
+Türkler savaş bonusu vardır
+İngilizler asalet bonusu alırlar
+Fransızlar kolonizasyon bonusu alır
+İtalya Turizm bonusu alır
+Ruslar ırksal güzellik bonusu alır
+Hindistan teknoloji bonusu vardır
+Meksika uyuşturucu bonusu kazanır
+Avusturalya ada bonusu alır
+Çin Nufüs bonusu vardır
+Almanlar sanayi bonusu alır
+Yunanlar spor bonusu alır
+Finlandıya eğitim bonusu alır
+Japonlar kamikaze bonusu alır 
+İspanya festival bonusu alır
+Kıbrıs kumarhane bonusu alır
+Amerika kültürel ortaklık bonusu alır
+Kore zeka bonusu alır
