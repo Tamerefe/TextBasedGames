@@ -1,9 +1,8 @@
 *Main Scenario
 
 Dünyada 236 ülke vardır. /Bm sadece 193 ülkeyi tanır
-Bu ülkeler birbileri ile bir çok ilişki içerisindedir,
-fakat bu sefer bütün bu çıkar ilişkilerini bir kenara bırakıp işi yapay zekaya bırakalım.
-Kendini o ülkeden hisseden ve o ülkenin özelliklerini taşıyan 236 Alfatras(Yapay Zekalı Robot Paralel Dünya Robotu)
+Bu ülkeler birbileri ile bir çok ilişki içerisindedir, fakat bu sefer denklemde insan faktörünü çıkarıp işi yapay zekaya bırakalım.
+Kendisini o ülkeden hisseden ve o ülkenin özelliklerini taşıyan 236 Alfatras(Yapay Zekalı Paralel Dünya Robotu)
 BM 'in açıklamasına göre her 100 kadına karşın 102 erkek erkeğin yaşadığı belirtildi
 49.5 Kadın - 50.5 Erkek fakat her ülkedeki kadın erkek nufusu eşit olmadığı için ülkelerin oranına göre hesaplanıcaktır
 Her ülkenin özellikleri robota yüklenicektir
