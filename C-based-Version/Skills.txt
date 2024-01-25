@@ -33,23 +33,22 @@ Kendi Dilleri Olup Farklı Ülkerler =
 
 ]
 
-
 Yahudiler tüccarlık bonusu alır
 Araplar din bonusu alır
 Türkler savaş bonusu vardır
 İngilizler asalet bonusu alırlar
 Fransızlar kolonizasyon bonusu alır
-İtalya Turizm bonusu alır
-Ruslar ırksal güzellik bonusu alır
+İtalyanlar Turizm bonusu alır
+Ruslar güzellik bonusu alır
 Hindistan teknoloji bonusu vardır
 Meksika uyuşturucu bonusu kazanır
-Avusturalya ada bonusu alır
+Avusturalya bağışıklık bonusu alır
 Çin Nufüs bonusu vardır
 Almanlar sanayi bonusu alır
 Yunanlar spor bonusu alır
-Finlandıya eğitim bonusu alır
+Finler eğitim bonusu alır
 Japonlar kamikaze bonusu alır 
 İspanya festival bonusu alır
 Kıbrıs kumarhane bonusu alır
-Amerika kültürel ortaklık bonusu alır
+Amerika çeşitlilik bonusu alır
 Kore zeka bonusu alır
