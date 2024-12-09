@@ -99,10 +99,13 @@ def combat(player, opponent):
             action = input(f"Choose action for {player['Name']} - (A)ttack or (H)eal: ").lower()
             if action == 'h':
                 can_heal(player, player)
-            else:
+            elif action == 'a':
                 if not attempt_dodge(opponent):
                     hit(player, opponent)
-
+            else:
+                print(f"{Fore.RED}Invalid action! Defaulting to attack.{Style.RESET_ALL}")
+                if not attempt_dodge(opponent):
+                    hit(player, opponent)
         else:
             if not attempt_dodge(opponent):
                 hit(player, opponent)

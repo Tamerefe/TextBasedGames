@@ -159,3 +159,26 @@ This project is licensed under the [MIT License](LICENSE).
 2. Choose your country and attributes.
 3. Manage your country and make strategic decisions over a 10-year period.
 4. Evaluate the results and enjoy the game.
+
+---
+
+# MyLifeSim
+
+**MyLifeSim** is a life simulation game where players can experience the journey of a character from birth to adulthood. Players make decisions that affect various aspects of their character's life, including health, money, happiness, intelligence, social skills, career experience, physical strength, and hobby skills.
+
+## Features
+
+- **Randomized Character Creation**: Characters are created with random attributes, gender, and country.
+- **Dynamic Life Events**: Experience a variety of life events that can positively or negatively impact your character.
+- **Attribute Management**: Manage and balance different attributes to ensure your character's well-being and success.
+- **Aging System**: Characters age over time, and players must adapt to new challenges and opportunities.
+
+## How to Play
+
+1. Start the game.
+2. Create your character with randomized attributes.
+3. Make decisions and experience life events as your character ages.
+4. Manage your character's attributes to keep them healthy, happy, and successful.
+5. Continue playing until your character's life comes to an end.
+
+---
