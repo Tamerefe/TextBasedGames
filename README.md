@@ -201,6 +201,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - A game where users try to guess a randomly chosen number within a specific range. Provides feedback on guesses and accuracy.
 - An application that allows you to find the number you predict on a card containing 6 numbers.
+- This game involves selecting coin values to match a randomly generated target value. The user is prompted to select coin denominations (50c, 25c, 10c, 5c, or 1c) and accumulate their total. The objective is to match the randomly set target amount exactly with the selected coins.
 
 ---
 
