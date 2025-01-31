@@ -143,6 +143,71 @@ def combat(player, opponent):
         print(f"{Fore.GREEN}{opponent['Name']}'s Health: {opponent['Hp']}{Style.RESET_ALL}")
         print(f"{Fore.WHITE}{'-'*50}{Style.RESET_ALL}")
 
+def combat_1_vs_2(player, opponents):
+    """Handle the combat between player and two opponents."""
+    print(f"\n{Fore.YELLOW}Our war begins between {player['Name']} and {opponents[0]['Name']} & {opponents[1]['Name']}!{Style.RESET_ALL}")
+    while player["Hp"] > 0 and (opponents[0]["Hp"] > 0 or opponents[1]["Hp"] > 0):
+        input(f"\nPress {Style.BRIGHT}'Enter'{Style.RESET_ALL} to proceed to the next round...")
+        print(f"{Fore.WHITE}{'-'*50}{Style.RESET_ALL}")
+
+        # Player's turn
+        action = 'attack'
+        if player["Heal"] > 0:
+            action = input(f"Choose action for {player['Name']} - (A)ttack or (H)eal: ").lower()
+            if action == 'h':
+                can_heal(player, player)
+            elif action == 'a':
+                target_index = int(input(f"Choose target to attack - (0) {opponents[0]['Name']} or (1) {opponents[1]['Name']}: "))
+                target = opponents[target_index]
+                if target["Hp"] > 0 and not attempt_dodge(target):
+                    hit(player, target)
+            else:
+                print(f"{Fore.RED}Invalid action! Defaulting to attack.{Style.RESET_ALL}")
+                target_index = int(input(f"Choose target to attack - (0) {opponents[0]['Name']} or (1) {opponents[1]['Name']}: "))
+                target = opponents[target_index]
+                if target["Hp"] > 0 and not attempt_dodge(target):
+                    hit(player, target)
+        else:
+            target_index = int(input(f"Choose target to attack - (0) {opponents[0]['Name']} or (1) {opponents[1]['Name']}: "))
+            target = opponents[target_index]
+            if target["Hp"] > 0 and not attempt_dodge(target):
+                hit(player, target)
+
+        # Check if all opponents are defeated
+        if all(opponent["Hp"] <= 0 for opponent in opponents):
+            print(f"\n{Fore.YELLOW}{player['Name']} Wins!{Style.RESET_ALL}")
+            break
+
+        # Opponents' turn
+        for opponent in opponents:
+            if opponent["Hp"] > 0:
+                if opponent["Heal"] > 0:
+                    # 50% chance to heal
+                    if random.choice([True, False]):
+                        can_heal(opponent, opponent)
+                    else:
+                        if not attempt_dodge(player):
+                            hit(opponent, player)
+                else:
+                    if not attempt_dodge(player):
+                        hit(opponent, player)
+
+        # Check if player is defeated
+        if player["Hp"] <= 0:
+            print(f"\n{Fore.YELLOW}{opponents[0]['Name']} & {opponents[1]['Name']} Win!{Style.RESET_ALL}")
+            break
+
+        # Check for draw
+        if player["Hp"] <= 0 and all(opponent["Hp"] <= 0 for opponent in opponents):
+            print(f"\n{Fore.MAGENTA}Both {player['Name']} and the opponents have fallen. It's a Draw!{Style.RESET_ALL}")
+            break
+
+        # Display current health
+        print(f"{Fore.GREEN}{player['Name']}'s Health: {player['Hp']}{Style.RESET_ALL}")
+        for opponent in opponents:
+            print(f"{Fore.GREEN}{opponent['Name']}'s Health: {opponent['Hp']}{Style.RESET_ALL}")
+        print(f"{Fore.WHITE}{'-'*50}{Style.RESET_ALL}")
+
 def show_character_skills():
     """Display the skills of all characters."""
     print("\nCharacter Skills:\n")
@@ -177,7 +242,14 @@ def main_menu():
             else:
                 print(f"{Fore.RED}Invalid character selection!{Style.RESET_ALL}")
         elif choic == "2":
-            print("BB Daha Sonra Tekrar Bekleriz...")
+            selected = select_character()
+            if selected:
+                player = chlst[selected].copy()  # Use copy to prevent modifying original stats
+                opponents = random.sample([ch for ch in lgt if ch["Name"] != selected], 2)
+                opponents = [opponent.copy() for opponent in opponents]
+                combat_1_vs_2(player, opponents)
+            else:
+                print(f"{Fore.RED}Invalid character selection!{Style.RESET_ALL}")
         elif choic == "3":
             print("BB Daha Sonra Tekrar Bekleriz...")
         elif choic == "4":

@@ -20,7 +20,7 @@ Welcome to **Python War Game**! This is a simple text-based combat game where pl
 ## Game Modes
 
 1. **1 vs 1**: Select one character and battle a randomly selected enemy.
-2. **1 vs 2** (Planned): Fight against two opponents.
+2. **1 vs 2**: Fight against two opponents.
 3. **2 vs 2** (Planned): Form a team of two to fight another team.
 4. **Character Skills**: View each character's attributes, including power, HP, heal, and dodge chance.
 
@@ -172,12 +172,6 @@ This project is licensed under the [MIT License](LICENSE).
 - In this classic puzzle, a farmer needs to transport a wolf, a goat, and a cabbage across a river using a boat. The challenge is to ensure that none of the items are harmed or eaten during the process. The farmer can only carry himself and one item at a time in the boat. The goal is to get all three items across the river safely.
 
 - [ANSI](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797)
-
----
-
-# Targetter
-
-- A turn-based combat game where you have to defend yourself by killing enemies with targets.
 
 ---
 
