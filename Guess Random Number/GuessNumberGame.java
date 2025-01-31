@@ -16,8 +16,14 @@ public class GuessNumberGame {
             if (numb == randoms) {
                 System.out.println("Congratulations! You guessed the number!");
             } else {
-                System.out.println("Unlucky! Better luck next time. Press Enter to continue.");
+                System.out.println("Unlucky! Better luck next time. Press Enter to continue or type 'exit' to quit.");
+                sys.nextLine();
+                String input = sys.nextLine();
+                if (input.equalsIgnoreCase("exit")) {
+                    break;
+                }
             }
         }
+        sys.close();
     }
 }
