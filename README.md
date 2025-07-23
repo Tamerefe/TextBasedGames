@@ -1,44 +1,3 @@
-# DuelOfDynasty
-
-Welcome to **Python War Game**! This is a simple text-based combat game where players can choose different characters and battle against randomly selected opponents. Each character has different attributes, such as power, health points (HP), healing abilities, and dodge chance.
-
-## Features
-
-- **1 vs 1 battles** with random characters.
-- Multiple unique characters with different skills.
-- **Dodge** and **healing** mechanics.
-- Simple, text-based combat system with dynamic health changes.
-
-## Characters
-
-- **Ninja**: High power, moderate health, 25% dodge chance.
-- **Gunsmith**: High power, low health, 16% dodge chance.
-- **Fighter**: Balanced power and health, 14% dodge chance.
-- **Healer**: Low power, medium health, 9% dodge chance, and healing ability.
-- **Magician**: Moderate power, low health, 33% dodge chance, and some healing ability.
-
-## Game Modes
-
-1. **1 vs 1**: Select one character and battle a randomly selected enemy.
-2. **1 vs 2**: Fight against two opponents.
-3. **2 vs 2** (Planned): Form a team of two to fight another team.
-4. **Character Skills**: View each character's attributes, including power, HP, heal, and dodge chance.
-
-## How to Play
-
-1. Clone or download the project.
-2. Ensure you have Python installed.
-3. Install the required package by running:
-   ```bash
-   pip install colorama
-   ```
-4. Run the game:
-   ```bash
-   python mywargame.py
-   ```
-
----
-
 # Kiss, Kill, Marry Game for Valorant Characters
 
 This project provides two versions of the "Kiss, Kill, Marry" game implemented in C and Python, focusing on Valorant characters.
@@ -167,32 +126,61 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-# GWCGame
+# RoPaSc
 
-- In this classic puzzle, a farmer needs to transport a wolf, a goat, and a cabbage across a river using a boat. The challenge is to ensure that none of the items are harmed or eaten during the process. The farmer can only carry himself and one item at a time in the boat. The goal is to get all three items across the river safely.
+**RoPaSc** (Rock, Paper, Scissors), klasik "Taş, Kağıt, Makas" oyununu komut satırında oynayabileceğiniz basit bir Java oyunudur.
 
-- [ANSI](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797)
+### Özellikler
+
+- Kullanıcı ve bilgisayar arasında oynanır.
+- Kullanıcıdan hamle alınır: Taş (r), Kağıt (p), Makas (s).
+- Bilgisayar rastgele bir hamle seçer.
+- Sonuç (beraberlik, kazanma, kaybetme) ekrana yazdırılır.
+- "exit" yazarak oyundan çıkabilirsiniz.
+
+### Nasıl Oynanır?
+
+1. Java dosyasını derleyin ve çalıştırın.
+2. Komut satırında hamlenizi girin: `r` (Taş), `p` (Kağıt), `s` (Makas).
+3. Bilgisayarın hamlesiyle karşılaştırılır ve sonuç ekrana yazılır.
+4. Oyundan çıkmak için "exit" yazın.
 
 ---
 
-## Guess Random Number
+# ToeTicTac
 
-- An application that allows you to find the number you predict on a card containing 6 numbers.
+**ToeTicTac**, klasik "Tic Tac Toe" (XOX) oyununu iki oyunculu olarak oynayabileceğiniz bir Java oyunudur.
 
-## RoPaSc
+### Özellikler
 
-- ***
+- 3x3'lük bir oyun tahtası.
+- Sırasıyla iki oyuncu (X ve O) hamle yapar.
+- Kazanan veya berabere durumu ekrana yazdırılır.
+- Geçersiz hamlelerde uyarı verir ve tekrar giriş ister.
 
-## ToeTicTac
+### Nasıl Oynanır?
 
-- ***
+1. Java dosyasını derleyin ve çalıştırın.
+2. Sırası gelen oyuncu, oynamak istediği satır ve sütunu girer (1-3 arası).
+3. Oyun, biri kazanana veya berabere bitene kadar devam eder.
 
-## LostlyMemories
+---
 
-- Gameplay Overview:
+# LostlyMemories
 
-1. You wake up in a mysterious dark forest with no memory.
-2. You must choose between two paths: a Misty Trail or an Old Stone Bridge.
-3. Depending on your choices, you will encounter different events.
-4. Your goal is to regain your lost memories by making the right decisions.
-5. Wrong choices lead to the shadows consuming you, ending the game.
+**LostlyMemories**, metin tabanlı bir macera oyunudur. Oyuncu, hafızasını kaybetmiş bir şekilde gizemli bir ormanda uyanır ve doğru kararlar vererek anılarını geri kazanmaya çalışır.
+
+### Özellikler
+
+- Türkçe ve İngilizce dil desteği.
+- Farklı yollar ve seçimler ile çoklu sonlar.
+- Yanlış seçimlerde oyun sona erer, doğru seçimlerde anılar geri kazanılır.
+
+### Nasıl Oynanır?
+
+1. Oyunu başlatın ve dil seçin.
+2. Karakterinizin adını girin.
+3. Karşınıza çıkan seçeneklerden birini seçerek ilerleyin.
+4. Doğru seçimlerle oyunu kazanın, yanlış seçimlerde oyun biter.
+
+---
